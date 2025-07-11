@@ -1,0 +1,41 @@
+Edit A2P Campaign Details
+
+Close modal
+Campaign description
+A2P Campaign description is required
+Describe what you will be using this campaign for.
+The campaign submission has been reviewed and rejected due to issues verifying the Call to Action (CTA) provided for the campaign. 
+Learn more
+Sample message #1
+🚨 Scam Alert! 🚨
+Beware of fraudulent calls claiming to be from tech support! Scammers use urgent language to trick victims into giving personal info. Never share passwords or payment details over the phone!
+✅ What to do? Hang up & report the number.
+🔍 AI Scam Detection in Action – Stay protected with Scam Slap
+Provide an example of a message that you will be sending with this campaign. This message sample will be used by carriers to help identify your traffic.
+Sample message #2
+⚠️ URGENT: SCAM WARNING ⚠️
+A new scam is making the rounds! Scammers pretend to be bank representatives, asking you to confirm fraudulent transactions. Do not provide personal info—banks will never request sensitive details over text or calls.
+🔍 Stay Protected with Scam Slap!
+📢 Report suspicious calls to help us track scam trends
+
+Provide an example of a message that you will be sending with this campaign. This message sample will be used by carriers to help identify your traffic.
+Sample message #3
+🤖 Scam Slap Alert!
+Heads up! Scammers are pretending to be tech support again, claiming your account is at risk. Don’t fall for it! If you get a suspicious call, just hang up—better yet, let Scam Slap waste their time for you!
+🔍 Stay safe & let AI fight back
+
+Provide an example of a message that you will be sending with this campaign. This message sample will be used by carriers to help identify your traffic.
+Sample message #4
+🚨 Scammer Alert! 🚨
+Hey there! Heads up—scammers are pretending to be tech support and asking for remote access to devices. Don’t fall for it! Legit companies never ask for sensitive info over the phone.
+💡 Tip: If a call feels off, hang up and report it!
+🛡️ Scam Slap is tracking scam trends—stay safe
+
+Provide an example of a message that you will be sending with this campaign. This message sample will be used by carriers to help identify your traffic.
+Sample message #5
+🚨 Heads up! Scam calls are on the rise! 🚨
+Scammers are pretending to be tech support or bank agents—don’t fall for it! If someone asks for your password, banking info, or remote access to your device, it’s a scam!
+✅ Stay safe with Scam Slap!
+📢 Report suspicious calls to help us track scam trends
+
+Provide an example of a message that you will be sending with this campaign. This message sample will be used by carriers to help identify your traffic.
