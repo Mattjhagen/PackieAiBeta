@@ -1,0 +1,263 @@
+/* --- Global Styles & Variables --- */
+:root {
+    --primary-color: #00aaff;
+    --secondary-color: #00ddbb;
+    --dark-bg: #121212;
+    --surface-bg: #1e1e1e;
+    --text-color: #e0e0e0;
+    --text-muted: #a0a0a0;
+    --border-color: #333333;
+    --font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--dark-bg);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+p {
+    margin-bottom: 1rem;
+    color: var(--text-muted);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* --- Header & Navigation --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* --- Buttons --- */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 170, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-color);
+    color: var(--dark-bg);
+}
+
+
+/* --- Hero Section --- */
+.hero-section {
+    text-align: center;
+    padding: 8rem 0;
+    background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('https://source.unsplash.com/random/1600x900/?cybersecurity,network') no-repeat center center/cover;
+}
+
+.hero-content h2 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.hero-content .subtitle {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 1rem auto 2rem;
+    color: var(--text-color);
+}
+
+/* --- How It Works Section --- */
+.how-it-works-section {
+    padding: 4rem 0;
+    background-color: var(--dark-bg);
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.step {
+    max-width: 300px;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+/* --- Features Section --- */
+.features-section {
+    padding: 4rem 0;
+    background-color: var(--surface-bg);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-card {
+    background-color: var(--dark-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card h3 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+
+/* --- CTA Section --- */
+.cta-section {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: var(--dark-bg);
+}
+
+.cta-section h2 {
+    color: #fff;
+}
+
+.cta-section p {
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+/* --- Footer --- */
+.footer {
+    background-color: var(--surface-bg);
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border-color);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        display: none; /* Simple solution for mobile, could be replaced with a burger menu */
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

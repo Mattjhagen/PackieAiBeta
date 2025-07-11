@@ -1,21 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>PackieAI - AI-Powered Anti-Scam Platform</title>
-    <meta name="theme-color" content="#f59e0b">
-    <meta name="description" content="AI-powered anti-scam platform that fights phone scammers with clever AI personas">
-    <link rel="icon" type="image/png" href="/src/assets/ai_logo.png" />
-    <link rel="apple-touch-icon" href="/src/assets/ai_logo.png" />
-    <meta name="apple-mobile-web-app-title" content="PackieAI">
-    <meta name="application-name" content="PackieAI">
-    <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiUGFja2llQUkiLCJzaG9ydF9uYW1lIjoiUGFja2llQUkiLCJkZXNjcmlwdGlvbiI6IkFJLXBvd2VyZWQgYW50aS1zY2FtIHBsYXRmb3JtIHRoYXQgZmlnaHRzIHBob25lIHNjYW1tZXJzIiwic3RhcnRfdXJsIjoiLyIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwiYmFja2dyb3VuZF9jb2xvciI6IiNmZmZmZmYiLCJ0aGVtZV9jb2xvciI6IiNmNTllMGIiLCJvcmllbnRhdGlvbiI6InBvcnRyYWl0IiwiaWNvbnMiOlt7InNyYyI6Ii9zcmMvYXNzZXRzL2FpX2xvZ28ucG5nIiwic2l6ZXMiOiI1MTJ4NTEyIiwidHlwZSI6ImltYWdlL3BuZyJ9XX0=">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PackieAI - AI-Powered Scam Call Protection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="attached assets/ai_logo.png" alt="PackieAI Logo">
+                <h1>PackieAI</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#developers">Developers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <h2>Protect Your Phone Line with Artificial Intelligence</h2>
+                <p class="subtitle">PackieAI intercepts scammers with intelligent voice personas, wasting their time and protecting you from fraud.</p>
+                <a href="#contact" class="btn btn-primary">Get Early Access</a>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works-section">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Forward Calls</h3>
+                        <p>Suspicious calls are forwarded to the PackieAI system seamlessly.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>AI Engages</h3>
+                        <p>Our advanced AI voice personas engage the scammer in realistic conversation.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Scammer Contained</h3>
+                        <p>We waste the scammer's time, gather data, and report them, keeping your line safe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Intelligent Voice Personas</h3>
+                        <p>Deploy a variety of AI-driven voices that can adapt to conversations and keep scammers on the line for longer.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Real-Time Analytics</h3>
+                        <p>Access a live dashboard to monitor intercepted calls, scam trends, and threat intelligence data.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Comprehensive Reporting</h3>
+                        <p>Automatically report fraudulent numbers to authorities and contribute to a global scammer database.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Developer API</h3>
+                        <p>Integrate PackieAI's powerful capabilities into your own applications and services with our robust API.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>SIP & Telco Integration</h3>
+                        <p>Connect directly with your existing telecommunications infrastructure for seamless protection.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Community Defense</h3>
+                        <p>Join a network of users and businesses working together to shut down phone fraud for good.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="developers" class="cta-section">
+            <div class="container">
+                <h2>Built for Developers</h2>
+                <p>Integrate our powerful scam-fighting tools into your own services. Explore our documentation and get your API key today.</p>
+                <a href="#" class="btn btn-secondary">Visit Developer Portal</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 PackieAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
